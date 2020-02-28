@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="styleSheet.css">
 
 	<!--Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/3dbead6653.js" crossorigin="anonymous"></script>
 
 
@@ -22,11 +22,9 @@
 <body>
 	<header>
 		<div class="logo">
-			<img src="images/Logo .png" alt="">
+			<img onclick="openNav()" src="images/Logo .png" alt="">
 		</div>
-		<button class="nav-toggl" aria-label="toggle navigation">
-			<span class="hamburger"></span>
-		</button>
+
 		<nav class="nav">
 			<ul class="nav__list">
 				<li class="nav_item"><a href="#home">Home</a></li>
@@ -36,6 +34,14 @@
 			</ul>
 		</nav>
 	</header>
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#">About</a>
+		<a href="#">Services</a>
+		<a href="#">Clients</a>
+		<a href="#">Contact</a>
+	</div>
 
 	<!--Introduction-->
 	<section class="intro" id="home">
@@ -158,28 +164,25 @@
 	<footer>
 		<!--e-mail address-->
 		<a href="mailto:HaroldF01@protonmail.com" class="footer-link">HaroldF01[a]protonmail[dot]com</a>
-		<ul class="social-list">
-			<li class="social-list__item">
-				<a class="social-list__link" href="https://medium.com/@HaroldF">
-					<i class="fab fa-medium"></i>
-				</a>
-			</li>
-			<li class="social-list__item">
-				<a class="social-list__link" href="https://twitter.com/Lit_Topographer">
-					<i class="fab fa-twitter-square"></i>
-				</a>
-			</li>
-			<li class="social-list__item">
-				<a class="social-list__link" href="">
-					<i class="fab fa-linkedin"></i>
-				</a>
-			</li>
-			<li class="social-list__item">
-				<a class="social-list__link" href="">
-					<i class="fab fa-github-square"></i>
-				</a>
-			</li>
-		</ul>
+		<hr>
+
+		<a class="social-list__link" href="https://medium.com/@HaroldF">
+			<i class="fab fa-medium"></i>
+		</a>
+
+		<a class="social-list__link" href="https://twitter.com/Lit_Topographer">
+			<i class="fab fa-twitter-square"></i>
+		</a>
+
+
+		<a class="social-list__link" href="">
+			<i class="fab fa-linkedin"></i>
+		</a>
+
+		<a class="social-list__link" href="">
+			<i class="fab fa-github-square"></i>
+		</a>
+
 	</footer>
 
 </body>

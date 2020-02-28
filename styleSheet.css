@@ -235,6 +235,15 @@ nav { display: none; }
 
 .section__subtitle--intro {
 	display: inline-block;
+} 
+
+footer {
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
 }
 
 @media (min-width: 600px) {
