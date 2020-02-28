@@ -246,7 +246,7 @@ footer a {
 	color: black;
 }
 
-
+/*navigation bar*/
 .sidenav {
     height: 100%;
     width: 0;
@@ -284,11 +284,10 @@ footer a {
   }
 
   @media screen and (max-height: 450px) {
-
-    .sidenav {padding-top: 15px;}
-
-    .sidenav a {font-size: 18px;}
-
+	.sidenav {padding-top: 15px;
+	}
+	.sidenav a {font-size: 18px;
+	}
   }
 
 
