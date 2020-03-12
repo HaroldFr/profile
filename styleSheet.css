@@ -37,6 +37,10 @@
 
 /*General Styles*/
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* fonts not working */
 body {
 	background: var(--clr-light);
