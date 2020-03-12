@@ -469,7 +469,7 @@ footer a {
 	width: 50px;
 	margin: 20px;
 	position: fixed;
-	z-index: 51;
+	z-index: 99;
 }
 .logo img:hover{
 	cursor: pointer;
