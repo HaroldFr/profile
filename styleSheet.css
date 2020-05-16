@@ -58,6 +58,7 @@ section {
 img { 
 	display: flex;
 	max-width: 100;
+	
 
 } 
 
@@ -95,7 +96,7 @@ h2
 h3 {
 	line-height: 1;
 	margin: 0;
-	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 h1 { font-size: var(--fs-h1) }
@@ -113,6 +114,7 @@ h3 { font-size: var(--fs-h3) }
 /*	position: relative; 
 	z-index: 3; */
 	box-shadow: var(--bs);
+	
 
 }
 
@@ -316,6 +318,7 @@ footer a {
 	.intro__img {
 		grid-area: img;
 		min-width: 250px;
+		
 	}
 
 	.section__subtitle--intro {

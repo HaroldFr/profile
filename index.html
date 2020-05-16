@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Harold</title>
 	<!--Ask how to get links-->
-	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styleSheet.css">
 
@@ -25,12 +25,12 @@
 			<img onclick="openNav()" src="images/Logo .png" alt="">
 		</div>
 
-		<nav class="nav">
+		<nav id="navbar" class="nav">
 			<ul class="nav__list">
-				<li class="nav_item"><a href="#home">top of page</a></li>
+				<li class="nav_item"><a href="#welcome-section">top of page</a></li>
 				<li class="nav_item"><a href="#services">what I do</a></li>
 				<li class="nav_item"><a href="#about">about me</a></li>
-				<li class="nav_item"><a href="#project">projects</a></li>
+				<li class="nav_item"><a href="#projects">projects</a></li>
 				<li class="nav_item"><a href="#social-list">contact</a></li>
 				
 			</ul>
@@ -39,16 +39,16 @@
 
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="#home">home</a>
+		<a href="#welcome-section">home</a>
 		<a href="#services">what I do</a>
 		<a href="#about">about me</a>
-		<a href="#project">projects</a>
+		<a href="#projects">projects</a>
 		<a href="#social-list">contact</a>
 		
 	</div>
 
 	<!--Introduction-->
-	<section class="intro" id="home">
+	<section class="intro" id="welcome-section">
 		<h1 class="section__title section__title--intro">
 			Hi, I am <strong>Harold Francisco.</strong>
 		</h1>
@@ -82,7 +82,7 @@
 			<!--/service-->
 		</div>
 
-		<a href="#project" class="btn">My Projects</a>
+		<a href="#projects" class="btn">My Projects</a>
 	</section>
 	<!--/My Services-->
 
@@ -104,13 +104,13 @@
 	<!--/About Me-->
 
 	<!--Project-->
-	<section class="my-project" id="project">
-		<h2 class="section__title section__title--work">My Project</h2>
+	<section class="my-project" id="projects">
+		<h2 class="section__title section__title--work">My Projects</h2>
 		<p class="section__subtitle section__title--work">Projects</p>
 
 		<div class="portfolio">
 			<!--portfolioImg01-->
-			<a href="https://haroldfr.github.io/monkeyJack/" class="portfolio__item" target="_blank">
+			<a href="https://haroldfr.github.io/monkeyJack/" class="portfolio__item project-tile" target="_blank">
 				<img id="hoverImgs" class="portfolioImgs1" src="images/illuminatedManu.jpeg" alt="flying books">
 				<h6>Vanilla HTML and CSS Example</h6>
 			</a>
@@ -168,20 +168,20 @@
 		<a href="#" class="footer-link" id="social-list">HaroldF01[a]protonmail[dot]com</a>
 		<hr>
 
-		<a class="social-list__link" href="https://medium.com/@HaroldF">
+		<a class="social-list__link" href="https://medium.com/@HaroldF" target="_blank">
 			<i class="fab fa-medium"></i>
 		</a>
 
-		<a class="social-list__link" href="https://twitter.com/Lit_Topographer">
+		<a class="social-list__link" href="https://twitter.com/Lit_Topographer" target="_blank">
 			<i class="fab fa-twitter-square"></i>
 		</a>
 
 
-		<a class="social-list__link" href="">
+		<a class="social-list__link" href="" target="_blank">
 			<i class="fab fa-linkedin"></i>
 		</a>
 
-		<a class="social-list__link" href="">
+		<a id="profile-link" class="social-list__link" href="https://github.com/HaroldFr" target="_blank">
 			<i class="fab fa-github-square"></i>
 		</a>
 
@@ -195,8 +195,7 @@
 			document.getElementById("mySidenav").style.width = "0";
 		}
 	</script>
-	<!--freecodecamp Testing-->
-<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->	
+ 
 </body>
 
 </html>
